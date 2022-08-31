@@ -1,25 +1,25 @@
 console.log("Hello from JavaScript");
 const songList =[
     {
-        imageLink: "Drake_-_Take_Care_cover.jpg",
+        imageLink: "./assets/Drake_-_Take_Care_cover.jpg",
         title: "Shot For Me",
         album: "Take Care",
         duration: "3:44"
     },
     {
-        imageLink: "sonderson.jpg",
+        imageLink: "./assets/sonderson.jpg",
         title: "Sonder Son (Interlude)",
         album: "Sonder Son",
         duration: "1:40"
     },
     {
-        imageLink: "reputationjpeg.jpg",
+        imageLink: "./assets/reputationjpeg.jpg",
         title: "Delicate",
         album: "Reputation",
         duration: "3:51"
     },
     {
-        imageLink: "graduation.jpg",
+        imageLink: "./assets/graduation.jpg",
         title: "Flashing Lights",
         album: "Graduation",
         duration: "3:57"
