@@ -19,7 +19,7 @@ interface IImage {
   
 }
 
-interface IPrimary {
+export interface IPrimary {
   title: string;
   album: string;
   cover: IImage;
@@ -32,6 +32,7 @@ interface IPrimary {
 interface IProps {
   slice: { primary: IPrimary };
 }
+
 
 const Song = ({ slice }: IProps ) => {
   console.log(slice);
